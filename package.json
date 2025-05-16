@@ -1,0 +1,20 @@
+{
+  "name": "weather-alert-app",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.14.3",
+    "node-cron": "^4.0.5",
+    "nodemailer": "^6.10.1",
+    "twilio": "^5.6.1"
+  }
+}
