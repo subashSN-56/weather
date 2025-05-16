@@ -119,7 +119,7 @@
       const formData = new FormData(e.target);
       const data = Object.fromEntries(formData);
 
-      const res = await fetch("http://localhost:5000/weather/set-alert", {
+      const res = await fetch("https://weather-backend-xrqm.onrender.com/weather/set-alert", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
