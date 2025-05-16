@@ -5,7 +5,7 @@ document.getElementById("alertForm").addEventListener("submit", async (e) => {
   const threshold = document.getElementById("threshold").value;
 
   try {
-    const res = await fetch("http://localhost:5000/weather/set-alert", {
+    const res = await fetch("https://weather-backend-xrqm.onrender.com/weather/set-alert", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, city, threshold }),
